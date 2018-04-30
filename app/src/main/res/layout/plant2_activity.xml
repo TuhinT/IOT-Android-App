@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codengine.iotapp.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:text="CHECK" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:text="Water" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:text="Light" />
+</android.support.design.widget.CoordinatorLayout>
